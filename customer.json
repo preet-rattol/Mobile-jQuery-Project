@@ -1,0 +1,686 @@
+{
+"customer": [
+{
+"compId": "001",
+"compName" : "Conscia Corp",
+"compAddr" : "2400 Eglinton Ave W",
+"compContact" : "Ria Karcha",
+"compPhone": "905-456-8956",
+"compEmail": "ria123@gmail.com",
+"invNumber": [
+	{"invNum" : "A001"},
+	{"invNum" : "A002"},
+	{"invNum" : "A003"}
+]
+},
+
+
+{
+"compId": "002",
+"compName" : "TD - Canada Trust",
+"compAddr" : "20 Bay Street",
+"compContact" : "Rohit Bansal",
+"compPhone": "647-963-8988",
+"compEmail": "bansalro@msn.com",
+"invNumber": [
+{"invNum" : "A004"},
+{"invNum" : "A005"},
+{"invNum" : "A006"}
+]
+},
+
+
+{
+"compId": "003",
+"compName" : "Rogers Authorized Dealer ",
+"compAddr" : "90 Weston Rd",
+"compContact" : "Preet Singh",
+"compPhone": "416-456-7845",
+"compEmail": "singhpreet@yahoo.com",
+"invNumber": [
+{"invNum" : "A007"},
+{"invNum" : "A008"},
+{"invNum" : "A009"}
+]
+},
+
+
+{
+"compId": "004",
+"compName" : "Manulife Financial",
+"compAddr" : "Bloor St W",
+"compContact" : "Jasmine Virk",
+"compPhone": "416-852-8542",
+"compEmail": "virkJas99@gmail.com",
+"invNumber": [
+{"invNum" : "A0010"},
+{"invNum" : "A0011"},
+{"invNum" : "A0012"}
+]
+},
+
+
+{
+"compId": "005",
+"compName" : "Blake, Cassels & Graydon LLP",
+"compAddr" : "1A9, 199 Bay St #4000, Toronto, ON M5L",
+"compContact" : "Parneet Sidhu",
+"compPhone": "905-789-8569",
+"compEmail": "sidhuparneet@msn.com",
+"invNumber": [
+{"invNum" : "A0013"},
+{"invNum" : "A0014"},
+{"invNum" : "A0015"}
+]
+},
+
+
+{
+"compId": "006",
+"compName" : "Bell Canada",
+"compAddr" : "1700 Wilson Ave, 182",
+"compContact" : "Parneet",
+"compPhone": "416-895-8524",
+"compEmail": "parneet5467@gmail.com",
+"invNumber": [
+{"invNum" : "A0016"},
+{"invNum" : "A0017"},
+{"invNum" : "A0018"}
+]
+},
+
+
+{
+"compId": "007",
+"compName" : "CIBC Bank",
+"compAddr" : "161 Bay St",
+"compContact" : "Sue Bawa",
+"compPhone": "647-854-8542",
+"compEmail": "Sue567@yahoo.com",
+"invNumber": [
+{"invNum" : "A0019"},
+{"invNum" : "A0020"},
+{"invNum" : "A0021"}
+]
+},
+
+{
+"compId": "008",
+"compName" : "Canadian Tire Corporation Limited",
+"compAddr" : "2111 Steeles Ave E",
+"compContact" : "Armaan Singh",
+"compPhone": "905-456-8526",
+"compEmail": "singharman@hotmail.com",
+"invNumber": [
+{"invNum" : "A0022"},
+{"invNum" : "A0023"},
+{"invNum" : "A0024"}
+]
+},
+
+{
+"compId": "009",
+"compName" : "Cisco Systems Canada Co.",
+"compAddr" : "88 Queens Quay W #2900, Toronto, ON M5J 0B8",
+"compContact" : "Seerat kaur",
+"compPhone": "905-895-7412",
+"compEmail": "kaur123Seerat@hotmail.com",
+"invNumber": [
+{"invNum" : "A0025"},
+{"invNum" : "A0026"},
+{"invNum" : "A0027"}
+]
+},
+
+
+{
+"compId": "0010",
+"compName" : "LoyaltyOne Co.",
+"compAddr" : "6696 Financial Dr",
+"compContact" : "Gracie Heer",
+"compPhone": "905-405-8555",
+"compEmail": "heer.gracie@gmail.com",
+"invNumber": [
+{"invNum" : "A0028"},
+{"invNum" : "A0029"},
+{"invNum" : "A0030"}
+]
+},
+
+
+{
+"compId": "0011",
+"compName" : "RBC Bank",
+"compAddr" : "179 Roncesvalles Ave",
+"compContact" : "Sarvan Singh",
+"compPhone": "416-880-8854",
+"compEmail": "sarvansingh@yahoo.com",
+"invNumber": [
+{"invNum" : "A0031"},
+{"invNum" : "A0032"},
+{"invNum" : "A0033"}
+]
+}
+],
+
+
+
+
+
+
+
+"invoice":[
+{
+"invNum": "A001",
+"invDate": "1 January 2015",
+"invAmt": "78000",
+"compId": "001",
+"products":[
+{"prodId": "0001",
+ "qty": "2"},
+ {"prodId": "0002",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A002",
+"invDate": "1 January 2015",
+"invAmt": "74600",
+"compId": "001",
+"products":[
+{"prodId": "00011",
+ "qty": "2"},
+ {"prodId": "0009",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A003",
+"invDate": "1 December 2015",
+"invAmt": "78000",
+"compId": "001",
+"products":[
+{"prodId": "0008",
+ "qty": "2"},
+ {"prodId": "0002",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A004",
+"invDate": "9 June 2016",
+"invAmt": "",
+"compId": "002",
+"products":[
+{"prodId": "0009",
+ "qty": "2"},
+ {"prodId": "0005",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A005",
+"invDate": "11 March 2015",
+"invAmt": "96300",
+"compId": "002",
+"products":[
+{"prodId": "0001",
+ "qty": "2"},
+ {"prodId": "0009",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A006",
+"invDate": "2 April 2015",
+"invAmt": "78960",
+"compId": "002",
+"products":[
+{"prodId": "0001",
+ "qty": "2"},
+ {"prodId": "0004",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A007",
+"invDate": "3 May 2015",
+"invAmt": "4100",
+"compId": "003",
+"products":[
+{"prodId": "00011",
+ "qty": "2"},
+ {"prodId": "0002",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A008",
+"invDate": "6 June 2015",
+"invAmt": "96300",
+"compId": "003",
+"products":[
+{"prodId": "00010",
+ "qty": "2"},
+ {"prodId": "0008",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A009",
+"invDate": "15 July 2015",
+"invAmt": "6300",
+"compId": "003",
+"products":[
+{"prodId": "0001",
+ "qty": "2"},
+ {"prodId": "0007",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0010",
+"invDate": "1 August 2015",
+"invAmt": "78500",
+"compId": "004",
+"products":[
+{"prodId": "0006",
+ "qty": "2"},
+ {"prodId": "0002",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0011",
+"invDate": "19 October 2015",
+"invAmt": "74500",
+"compId": "004",
+"products":[
+{"prodId": "00010",
+ "qty": "2"},
+ {"prodId": "00011",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0012",
+"invDate": "17 November 2015",
+"invAmt": "45000",
+"compId": "004",
+"products":[
+{"prodId": "0009",
+ "qty": "2"},
+ {"prodId": "0008",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0013",
+"invDate": "8 January 2015",
+"invAmt": "96800",
+"compId": "005",
+"products":[
+{"prodId": "0007",
+ "qty": "2"},
+ {"prodId": "0006",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0014",
+"invDate": "13 June 2015",
+"invAmt": "74500",
+"compId": "005",
+"products":[
+{"prodId": "0005",
+ "qty": "2"},
+ {"prodId": "0004",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0015",
+"invDate": "25 May 2015",
+"invAmt": "987500",
+"compId": "005",
+"products":[
+{"prodId": "0001",
+ "qty": "2"},
+ {"prodId": "0003",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0016",
+"invDate": "15 April 2014",
+"invAmt": "4500",
+"compId": "006",
+"products":[
+{"prodId": "0005",
+ "qty": "2"},
+ {"prodId": "0004",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0017",
+"invDate": "1 March 2015",
+"invAmt": "63300",
+"compId": "006",
+"products":[
+{"prodId": "0006",
+ "qty": "2"},
+ {"prodId": "0002",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0018",
+"invDate": "19 January 2016",
+"invAmt": "85000",
+"compId": "006",
+"products":[
+{"prodId": "00011",
+ "qty": "2"},
+ {"prodId": "00010",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0019",
+"invDate": "26 October 2015",
+"invAmt": "785560",
+"compId": "007",
+"products":[
+{"prodId": "0006",
+ "qty": "2"},
+ {"prodId": "0003",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0020",
+"invDate": "10 August 2015",
+"invAmt": "74600",
+"compId": "007",
+"products":[
+{"prodId": "00011",
+ "qty": "2"},
+ {"prodId": "0004",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0021",
+"invDate": "9 May 2015",
+"invAmt": "78900",
+"compId": "007",
+"products":[
+{"prodId": "0001",
+ "qty": "2"},
+ {"prodId": "0002",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0022",
+"invDate": "17 May 2015",
+"invAmt": "968500",
+"compId": "008",
+"products":[
+{"prodId": "00011",
+ "qty": "2"},
+ {"prodId": "0003",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0023",
+"invDate": "16 December 2015",
+"invAmt": "745000",
+"compId": "008",
+"products":[
+{"prodId": "00011",
+ "qty": "2"},
+ {"prodId": "0002",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0024",
+"invDate": "23 December 2015",
+"invAmt": "7769800",
+"compId": "008",
+"products":[
+{"prodId": "00011",
+ "qty": "2"},
+ {"prodId": "0004",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0025",
+"invDate": "9 November 2015",
+"invAmt": "1230041",
+"compId": "009",
+"products":[
+{"prodId": "00010",
+ "qty": "2"},
+ {"prodId": "00011",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0026",
+"invDate": "7 May 2015",
+"invAmt": "746800",
+"compId": "009",
+"products":[
+{"prodId": "0007",
+ "qty": "2"},
+ {"prodId": "0006",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0027",
+"invDate": "6 May 2015",
+"invAmt": "58000",
+"compId": "009",
+"products":[
+{"prodId": "0005",
+ "qty": "2"},
+ {"prodId": "0001",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0028",
+"invDate": "30 October 2015",
+"invAmt": "564700",
+"compId": "0010",
+"products":[
+{"prodId": "0006",
+ "qty": "2"},
+ {"prodId": "0004",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0029",
+"invDate": "14 May 2015",
+"invAmt": "125800",
+"compId": "0010",
+"products":[
+{"prodId": "0006",
+ "qty": "2"},
+ {"prodId": "0007",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0030",
+"invDate": "13 April 2015",
+"invAmt": "99868700",
+"compId": "0010",
+"products":[
+{"prodId": "0002",
+ "qty": "2"},
+ {"prodId": "0005",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0031",
+"invDate": "13 December 2015",
+"invAmt": "122004500",
+"compId": "0011",
+"products":[
+{"prodId": "0006",
+ "qty": "2"},
+ {"prodId": "0007",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0032",
+"invDate": "26 March 2015",
+"invAmt": "1235700",
+"compId": "0011",
+"products":[
+{"prodId": "0001",
+ "qty": "2"},
+ {"prodId": "0007",
+ "qty": "3"}
+]
+},
+
+{
+"invNum": "A0033",
+"invDate": "16 September 2015",
+"invAmt": "56054000",
+"compId": "0011",
+"products":[
+{"prodId": "0009",
+ "qty": "2"},
+ {"prodId": "0005",
+ "qty": "3"}
+]
+}
+
+
+
+],
+
+
+
+
+
+
+
+"product":[
+{
+"prodId": "0001",
+"prodDesc": "Dell CPU",
+"prodAmt": "100"
+},
+
+{
+"prodId": "0002",
+"prodDesc": "Dell Desktop",
+"prodAmt": "110"
+},
+
+{
+"prodId": "0003",
+"prodDesc": "Wireless Mouse",
+"prodAmt": "120"
+},
+
+{
+"prodId": "0004",
+"prodDesc": "HP Laptop",
+"prodAmt": "200"
+},
+
+{
+"prodId": "0005",
+"prodDesc": "Virtual Keyboard",
+"prodAmt": "150"
+},
+
+{
+"prodId": "0006",
+"prodDesc": "MacBook Air",
+"prodAmt": "190"
+},
+
+{
+"prodId": "0007",
+"prodDesc": "Acer Laptop",
+"prodAmt": "250"
+},
+
+{
+"prodId": "0008",
+"prodDesc": "MacBook Pro",
+"prodAmt": "230"
+},
+
+
+{
+"prodId": "0009",
+"prodDesc": "Intel CPU",
+"prodAmt": "195"
+},
+
+{
+"prodId": "00010",
+"prodDesc": "Lenovo Laptop",
+"prodAmt": "450"
+},
+
+{
+"prodId": "00011",
+"prodDesc": "Asus Laptop",
+"prodAmt": "300"
+}
+]
+}
+
+
+
+
+
+

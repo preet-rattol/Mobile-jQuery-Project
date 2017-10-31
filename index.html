@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+	<title>Project - deSiGniT </title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	
+	<link rel="stylesheet" href="_css/jquery.mobile.css" />
+	<link rel="stylesheet" href="_css/designIt_theme.css" />
+	<link href="_css/style.css" rel="stylesheet" type="text/css">
+	
+	<script src="_js/jquery.js"></script>
+	<script src="_js/jquery.mobile.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+<!--
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKu0ZO4FDI91V5jPgljJ7sS8zUrabIyYM&callback=initMap"
+  type="text/javascript"></script>
+-->
+	<script src="_js/myscript.js"></script>
+	
+	
+</head>
+
+<body>
+
+	<div data-role="page" id="home" data-theme="a">
+	
+		<header data-role="header">
+			<h1 class="ui-title">Project - deSiGniT </h1>
+		</header>
+	
+		<section class="ui-content" role="main">
+			<ul id="customersList" data-role="listview" data-inset="true" data-filter="true">
+		
+			</ul>
+			
+		</section>
+		
+		<footer class="footer" data-role="footer" align="center" >
+			<p>By: Preet Kanwal Rattol</p>
+		</footer>
+	</div>
+
+<!-- end of home page -->
+
+<!-- Start of individual page -->
+	
+	<div data-role="page" id="individual" data-theme="a">
+		<header data-role="header">
+			<a href="#home" data-transition="flow" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all">HOME</a>
+			<h1 class="ui-title">Customer Page</h1>
+			<nav data-role="navbar">
+				<ul>
+				  <li ><a  href="#InvoicePanel" class="ui-btn ui-btn-inline">Invoice Panel</a></li>	
+				  <li id="emailBtn" > <button class="ui-btn ui-icon-home ui-mini ui-btn-inline" onclick="sendEmail()">Send Email</button></li>	  
+				</ul>
+		  	</nav>
+		</header>
+		
+		<section class="ui-content" role="main">
+			<div id="customerDiv" align="center">
+				<span class="bold">Company Id: </span> <span id="compId"></span> <br>
+				<span class="bold">Company Name: </span> <span id="compName"></span> <br>
+				<span class="bold">Address: </span> <span id="compAddr"></span> <br>
+				<span class="bold">Contact: </span> <span id="compCont"></span> <br>
+				<span class="bold">Phone: </span> <span id="compPhone"></span> <br>
+				<span class="bold">Email: </span> <span id="compEmail"></span> <br>
+			</div>	
+			
+			<div id="mapDiv" align="center"></div>
+			
+			<div data-role="panel" id="InvoicePanel" data-display="overlay" data-position="left">
+					<ul id="InvoiceList" data-role="listview" data-inset="true" data-filter="true"></ul>
+			</div>
+	
+		</section>
+		
+		<footer class="footer" data-role="footer" align="center">
+			<p>By: Preet Kanwal Rattol</p>
+		</footer>
+		
+	</div>
+<!-- end of individual page -->
+
+<!-- Start of invoice page -->
+	
+	<div data-role="page" id="invoice" data-theme="a">
+		<header data-role="header">
+			<a href="#home" data-transition="flow" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all">HOME</a>
+			<h1 class="ui-title">Invoice Page</h1>
+			<a href="#individual" data-transition="flow" class="ui-btn ui-icon-back ui-btn-icon-notext ui-btn-right  ui-corner-all">BACK</a>
+
+		</header>
+		
+		<section class="ui-content" role="main">
+				<div align="center">
+					<span class="bold">Invoice Number: </span> <span id="invoiceNumber"></span> <br>
+					<span class="bold">Date: </span> <span id="invoiceDate"></span> <br>
+					<span class="bold">Amount: </span> <span id="invoiceAmount"></span> <br>
+					<span class="bold">Company Id: </span> <span id="invCompId"></span> <br>
+				</div>
+		</section>
+		
+		<section data-role="collapsible">
+			<h3>Product 1</h3>
+			<span class="bold">Quantity: </span> <span id="quantity1"></span> <br>
+			<span class="bold">Product ID: </span> <span id="productId1"></span> <br>	
+			<span class="bold">Description: </span> <span id="prodDesc1"></span> <br>
+			<span class="bold">Amount: </span> <span id="prodAmt1"></span> <br>
+		</section>
+		
+		<section data-role="collapsible">
+			<h3>Product 2</h3>
+			<span class="bold">Quantity: </span> <span id="quantity2"></span> <br>
+			<span class="bold">Product ID: </span> <span id="productId2"></span> <br>	
+			<span class="bold">Description: </span> <span id="prodDesc2"></span> <br>
+			<span class="bold">Amount: </span> <span id="prodAmt2"></span> <br>
+		</section>
+		
+		<footer class="footer" data-role="footer" align="center">
+			<p >By: Preet Kanwal Rattol</p>
+		</footer>
+		
+	</div>
+</body>
+</html>
